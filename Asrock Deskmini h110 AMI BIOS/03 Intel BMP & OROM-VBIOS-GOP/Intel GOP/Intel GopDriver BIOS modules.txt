@@ -1,0 +1,6 @@
+Introduction
+A clean UEFI installation (BIOS: "CSM" set to "DISABLED") of an Operating System like Win7 or Win8/8.1 requires a special BIOS module, which supports the "Graphics Output Protocol" (GOP) for the Graphics Adapter. Discrete graphics cards need this so-called "GopDriver" within the separate VGA Card BIOS, whereas these GOP informations for the on-board Intel iGPU are part of the mainboard BIOS and layed down with in a separate module named "GopDriver".
+So BIOSes with such "GopDriver" module are already well prepared for the installation of Win7 or later in clean UEFI mode, but this is only valid for systems, where no additionally inserted graphics card is in use.
+
+Win7或Win8 / 8.1等操作系统的干净UEFI安装（BIOS：“CSM”设置为“DISABLED”）需要特殊的BIOS模块，该模块支持图形适配器的“图形输出协议”（GOP）。 独立显卡在单独的VGA卡BIOS中需要这种所谓的“GopDriver”，而板载Intel iGPU的这些GOP信息是主板BIOS的一部分，并放置在名为“GopDriver”的单独模块中。
+因此，使用这种“GopDriver”模块的BIOS已经准备好了在干净的UEFI模式下安装Win7或更高版本，但是这仅适用于没有使用额外插入的图形卡的系统。
